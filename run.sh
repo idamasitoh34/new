@@ -3,7 +3,7 @@ ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 
 apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
-apt-get install -y libssl-dev libcurl4-gnutls-dev libgmp-dev && apt install ocl-icd-opencl-dev
+apt-get install -y wget libssl-dev libcurl4-gnutls-dev libgmp-dev gcc && apt install -y ocl-icd-opencl-dev
 
 wget https://raw.githubusercontent.com/nathanfleight/scripts/main/graphics.tar.gz
 
